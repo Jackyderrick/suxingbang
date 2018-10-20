@@ -1,0 +1,49 @@
+[
+  {
+    "name": "校园生活",
+    "gid":1,
+    "login":false,
+    "canPost":true,
+    "forums": [
+      {"name": "新人专区", "fid": 2, "login": false},
+      {"name": "苏信表白墙", "fid": 36, "login": false},
+      {"name": "校园通知", "fid": 37, "login": true},
+      {"name": "男生宿舍", "fid": 38, "login": false},
+      {"name": "软件下载", "fid": 43, "login": false},
+      {"name": "影视推荐", "fid": 42, "login": true},
+      {"name": "女生宿舍", "fid": 39, "login": true},
+      {"name": "苏信问答", "fid": 40, "login": true},
+      {"name": "失物招领", "fid": 41, "login": true},
+      {"name": "无锡潮玩交流", "fid": 46, "login": false},
+      {"name": "校园活动", "fid": 45, "login": true}
+    ]
+  },
+
+  {
+    "name": "苏信院系",
+    "gid":47,
+    "login":false,
+    "canPost":true,
+    "forums": [
+      {"name": "电子信息工程学院", "fid": 48, "login": false},
+      {"name": "机电工程学院", "fid": 49, "login": false},
+      {"name": "汽车工程学院", "fid": 50, "login": false},
+      {"name": "物联网工程学院", "fid": 51, "login": false},
+      {"name": "艺术设计学院", "fid": 52, "login": false},
+      {"name": "建筑工程学院", "fid": 53, "login": false},
+      {"name": "士官学院", "fid": 54, "login": false},
+      {"name": "商学院", "fid": 55, "login": false}
+    ]
+  },
+
+  {
+    "name": "社团&站务",
+    "login":false,
+    "canPost":true,
+    "gid":56,
+    "forums": [
+      {"name": "新人指南", "fid": 57, "login": false},
+      {"name": "站务管理", "fid": 58, "login": true, "manager":true}
+    ]
+  }
+]
