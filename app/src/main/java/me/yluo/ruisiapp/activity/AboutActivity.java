@@ -41,10 +41,10 @@ public class AboutActivity extends BaseActivity {
 
         String ss = "<b>苏信邦手机客户端【适用于江苏信息职业技术学院】</b><br />功能不断完善中，bug较多还请多多反馈......<br />" +
                 "bug反馈:<br />" +
-                "F. 到 <a href=\"forum.php?mod=viewthread&tid=9&fromguid=hot&extra=&mobile=2\">本帖</a> 回复BUG<br />" +
-                "S. 本站开发运营 <a href=\"home.php?mod=space&uid=1&do=profile&mycenter=1&mobile=2\">@德里克【derrick】</a><br />"+
-                "<b>下载地址: <a href=\"https://www.coolapk.com/apk/149321\">库安</a></b><br />";
-
+                "A. 到 <a href=\"forum.php?mod=viewthread&tid=9&fromguid=hot&extra=&mobile=2\">本帖</a> 回复BUG<br />" +
+                "B. 本站开发运营 <a href=\"home.php?mod=space&uid=1&do=profile&mycenter=1&mobile=2\">@德里克【derrick】</a><br />"+
+                "C.<b>下载地址: <a href=\"https://download.w1w8.cn\">苏信邦官方下载</a></b><br />"+
+                "D. <a href=\"https://derrick.you12580.cn\">开发者简介</a><br />";
         TextView htmlView = findViewById(R.id.html_text);
         HtmlView.parseHtml(ss).into(htmlView);
 
